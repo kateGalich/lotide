@@ -33,6 +33,9 @@ const eqObjects = function (object1, object2) {
   }
 }
 
+module.exports = eqObjects;
+
+
 const eqArrays = function (arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;

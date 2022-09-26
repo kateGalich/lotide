@@ -8,6 +8,9 @@ const map = function (array, callback) {
   return results;
 }
 
+module.exports = map;
+
+
 const eqArrays = function (arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
 

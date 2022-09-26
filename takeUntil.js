@@ -10,6 +10,8 @@ const takeUntil = function (array, callback) {
   return array.slice(0, Number(lastIndex) + 1);
 }
 
+module.exports = takeUntil;
+
 const eqArrays = function (arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
 
